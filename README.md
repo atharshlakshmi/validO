@@ -11,6 +11,7 @@ The system works by:
 - **Classifying reviews into four categories:** Ad, Rant, Irrelevant, and Valid.
 - **Feature engineering** to capture useful signals, such as review length, all-caps ratio (to detect rants), and a heuristic relevancy score (longer reviews with higher sentiment and lower caps ratio are more trustworthy).
 - **Labeling data** using a combination of Qwen with **few-shot prompting** and **manual hand-labeling** of 1000 and 200 reviews respectively to improve data quality.
+- To capture emotions effectively, we **trained RoBERTa on the GoEmotions dataset** and leveraged it for feature extraction.
 - Training a **Logistic Regression** to classify reviews into categories.
 - Evaluating performance with **precision, recall, and F1-score** to measure how well the system identifies different types of low-quality reviews.
 - This solution helps platforms **enforce content policies and provides more reliable information for users making location-based decisions**.
