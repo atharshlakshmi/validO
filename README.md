@@ -32,12 +32,12 @@ source venv/bin/activate   # Mac/Linux
 venv\Scripts\activate      # Windows
 ```
 
-#### 3. Install dependencies
+#### 3. Install Dependencies
 ```
 pip install -r requirements.txt
 ```
 
-#### 4. Install data
+#### 4. Install Data
 > The dataset is **not committed** to Git (protected by `.gitignore`). 
 1. Go to UCSD Google Local Dataset (https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/).
 2. Download complete 'Other' reviews and metadata.
@@ -46,6 +46,11 @@ pip install -r requirements.txt
 data/raw
 ```
 
+### 5. Install Trained Model
+> The trained model is **not committed** to Git (protected by `.gitignore`).
+1. Go to the Trained Model Google Driv (https://drive.google.com/drive/folders/1cqsuyhh5_O1Ei7SdYWW-wx-g_DE2MlEn).
+2. Download and unzip the complete folder.
+3. Add the downloaded folder to your local repo.
 
 #### 5. Setup Environment Variables
 Create a .env file in the project root with:
