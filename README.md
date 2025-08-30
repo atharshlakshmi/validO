@@ -57,9 +57,10 @@ HF_TOKEN=yourhuggingfacetoken
 1. Download the data as mentioned above.
 2. Visit pre_processing/process_data.ipynb to explore the data.
 3. Label the data by running both labelling/hand_label_data.py and labelling/qwen_label_data.ipynb.
-4. Do feature engineering by running feature_engineering/extract_features.ipynb.
-5. Train the model and get your results by running models/logistic_regression.ipynb. 
-6. To classify a new set of data, clean and extract its features before inputting it into the model.
+4. Train the roberta model in train_roberta.ipynb
+5. Do feature engineering by running feature_engineering/extract_features.ipynb.
+6. Train the model and get your results by running models/logistic_regression.ipynb. 
+7. To classify a new set of data, clean and extract its features before inputting it into the model.
 
 ## Future Improvements
 1. Fine-tune larger pre-trained models on more labelled reviews.
