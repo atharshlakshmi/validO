@@ -1,5 +1,4 @@
 venv/
 .env
 data/raw
-models/
 trained_model/
